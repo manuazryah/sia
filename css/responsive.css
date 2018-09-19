@@ -1,0 +1,264 @@
+@media only screen and (min-width:1400px){
+}
+@media only screen and (min-width:1200px){
+}
+@media (max-width:1200px) and (min-width:992px){
+    .services .service-box .read-more:before{
+        width: 63%;
+    }
+    .top-header .navigation-div:after{
+        border-bottom: 109px solid #fdfdfd;
+    }
+}
+@media (min-width: 991px) {
+    #mobile-header{
+        display: none;
+    }   
+
+}
+@media (max-width: 991px) {
+    .carousel-fade, #banner {
+        z-index: -1;
+    }
+    #about-sec .content{
+        padding: 20px 15px;
+    }
+    #contact-sec .info{
+        padding: 0px;
+    }
+    #top-header{
+        display: none;
+    }
+    #mobile-header{
+        display: block;
+    }
+    #mobile-header .top-header{
+        display: inline-block;
+        background: #1d3160;
+    }
+    #mobile-header .top-header:before{
+        display: none;
+    }
+    #mobile-header .menu-section{
+        display: inline-block;
+        padding: 25px 0;
+        float: left;
+        background: #1f3975;
+    }
+    #mobile-header .logo-section{
+        display: inline-block;
+        float: left;
+    }
+    #mobile-header .navigation-section{
+        display: inline-block;
+        float: right;
+    }
+    #mobile-header .navbar-brand {
+        padding: 5px 10px;
+        width: 115px;
+    }
+    #mobile-header .navbar-light .navbar-toggler {
+        background: transparent;
+    }
+    .top-header .head-contact ul li{
+        margin-right: 40px;
+    }
+    .top-header .head-contact ul li span{
+        font-size: 9px;
+        color: rgb(197, 197, 197);
+    }
+    .top-header .head-contact ul li .info{
+        font-size: 13px;
+        color: #e8e8e8;
+    }
+    .top-header .head-contact ul{
+        padding-top: 0;
+        padding: 22px 20px;
+    }
+    #careers-page .careers{
+        background-image: none;
+    }
+    .order-one {
+        order: 0;
+        -webkit-order: 0;
+        margin-bottom: 50px;
+    }
+    .order-two {
+        order: 1;
+        -webkit-order: 1;
+    }
+}
+
+@media (max-width:992px) and (min-width:768px){
+    .top-header {
+        background: #1a315f;
+    }
+    .top-header .navigation-div:after{
+        display: none;
+    }
+    .top-header .navigation-div{
+        padding-left: 15px;
+        background: #14315e;
+    }
+    .services .service-box .read-more:before{
+        width: 68%;
+    }
+    .header nav{
+        position: unset;
+    }
+    #mobile-header .navbar-collapse{
+        position: absolute;
+        top: 90px;
+        width: 100%;
+        background: #18315f;
+        z-index: 1;
+        border-top: 1px solid #0067b057;
+    }
+    .header nav .navbar-nav{
+        width: 100%;
+    }
+    .header .navbar-nav .nav-item{
+        border-bottom: 1px solid #656c7875;
+    }
+    .header .navbar-nav .nav-item.active a {
+        color: #ffffff !important;
+    }
+    .header .navbar-nav .nav-item a {
+        padding: 15px 0 15px 0;
+    }
+    .about .page-heading{
+        margin-left: 275px;
+    }
+    .page-heading .title{
+        font-size: 15px;
+    }
+    .page-heading .heading {
+        font-size: 23px;
+    }
+    .about .content p img{
+        width: 40%;
+    }
+}
+@media (max-width:768px) and (min-width:576px){
+    .services .service-box .title{
+        font-size: 15px;
+    }
+    .services .service-box .content{
+        font-size: 11px;
+    }
+    .services .service-box .read-more:before{
+        width: 55%;
+    }
+    .top-header .head-contact ul li{
+        margin-right: 10px;
+    }
+    .top-header .head-contact ul li icon img{
+        width: 85%;
+    }
+    .top-header .head-contact ul{
+        padding: 22px 15px;
+    }
+    .header nav{
+        position: unset;
+    }
+    #mobile-header .navbar-collapse{
+        position: absolute;
+        top: 90px;
+        width: 100%;
+        background: #18315f;
+        z-index: 1;
+        border-top: 1px solid #0067b057;
+    }
+    .header nav .navbar-nav{
+        width: 100%;
+    }
+    .header .navbar-nav .nav-item{
+        border-bottom: 1px solid #656c7875;
+    }
+    .header .navbar-nav .nav-item.active a, .header.sticky .navbar-nav .nav-item.active a {
+        color: #ffffff !important;
+    }
+    .header .navbar-nav .nav-item a {
+        padding: 15px 0 15px 0;
+        color: #949292 !important;
+    }
+    #about-sec .features {
+        background-size: auto;
+        background-position: bottom center;
+    }
+    .about .page-heading{
+        margin-left: 0px;
+    }
+    .page-heading .title{
+        font-size: 15px;
+    }
+    .page-heading .heading {
+        font-size: 23px;
+    }
+    .about .content p img{
+        display: none;
+    }
+}
+@media only screen and (max-width:576px){
+    #about-sec .features {
+        background-size: auto;
+        background-position: bottom center;
+    }
+    .services .service-box .read-more:before{
+        width: 75%;
+    }
+    #mobile-header .navigation-section{
+        display: none;
+    }
+    #mobile-header .menu-section{
+        float: right;
+    }
+    #mobile-header .logo-section{
+        float: left;
+    }
+    .header nav{
+        position: unset;
+    }
+    #mobile-header .navbar-collapse{
+        position: absolute;
+        top: 90px;
+        right: 0;
+        width: 100%;
+        background: #18315f;
+        z-index: 1;
+        border-top: 1px solid #0067b057;
+    }
+    .header nav .navbar-nav{
+        width: 100%;
+    }
+    .header .navbar-nav .nav-item{
+        border-bottom: 1px solid #656c7875;
+    }
+    .header .navbar-nav .nav-item.active a, .header.sticky .navbar-nav .nav-item.active a {
+        color: #ffffff !important;
+    }
+    .header .navbar-nav .nav-item a {
+        padding: 15px 0 15px 0;
+        color: #949292 !important;
+    }
+    .about .page-heading{
+        margin-left: 0px;
+    }
+    .page-heading .title{
+        font-size: 14px;
+    }
+    .page-heading .heading {
+        font-size: 20px;
+    }
+    .about .content p {
+        font-size: 12px;
+    }
+    .about .content p img{
+        display: none;
+    }
+}
+@media only screen and (max-width:460px){
+    .services .service-box .read-more:before {
+        width: 67%;
+    }
+}
